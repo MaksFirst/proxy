@@ -1,0 +1,5 @@
+apt -y install wireguard-tools
+apt install openresolv
+cp Kostya.conf /etc/wireguard
+wg-quick up Kostya
+wg-quick down Kostya
